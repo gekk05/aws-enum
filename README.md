@@ -48,23 +48,7 @@ AWS Enum is an AWS account configuration auditing tool designed to scour all AWS
 Both AWS keys are obtained by enabling progamatic access via AWS's IAM console.
 
 ## Status
-
-Here goes all the budgets
-
-## What's included
-
-Some text
-
-```text
-folder1/
-└── folder2/
-    ├── folder3/
-    │   ├── file1
-    │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
-```
+As of 6/23/2020, this tool is in it's earliest form of development.
 
 ## Future Plans
 Currently AWS Enum is configured to only return a findings report in JSON form then passed to my company's template -- generating an HTML report automatically. 
@@ -76,7 +60,8 @@ The future for AWS Enum will look like:
 * Visualization of AWS findings
 * Automated AWS privilege escalation and horizontal pivoting
 * Asset exfiltration (contingent on IAM permissions, exfiltrate sensitive data from common services like DynamoDB, S3, etc.) 
-* AWS account map visualization, likely mindmaps similar to how [Bloodhound](https://github.com/BloodHoundAD/BloodHound) does it.
+* AWS account map visualization, likely mindmaps similar to how [Bloodhound](https://github.com/BloodHoundAD/BloodHound) does it
+* Automated SSRF exploitation and privilege escalation
 
 
 ## Creators

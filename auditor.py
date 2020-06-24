@@ -702,8 +702,7 @@ class AuditManager:
 am = AuditManager()
 am.run_audits_service()
 
-print(am.generate_report())
-#results = am.get_results()  # Returns a dictionary of results. Keys are service names
+print(am.get_results())  # Returns a dictionary of results. Keys are service names
 #print(am.get_results().keys())
 #print(json.dumps(am.get_results(), indent=2))
 

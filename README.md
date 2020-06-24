@@ -35,10 +35,13 @@ AWS Enum is an AWS security auditing tool utilizing AWS's Python3 library, Boto3
 
 ## Quick start
 
-- Install boto3
-pip3 install boto3
-- Set AWS credentials
-If not specified, boto3 will pull credentials locally from ~/.aws/credentials. Add your AWS credentials by typing `aws configure --profile $profile-name`
+ 1. Install boto3:
+ pip3 install boto3
+ 
+ 2. Set AWS credentials.
+ If not specified, boto3 will pull credentials locally from ~/.aws/credentials. Add your AWS credentials by typing `aws configure --profile $profile-name`
+ 
+ 
 `
 Both AWS keys are obtained by enabling progamatic access via AWS's IAM console.
 

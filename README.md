@@ -48,7 +48,7 @@ If not specified, boto3 will pull credentials locally from ~/.aws/credentials. A
 Both AWS keys are obtained by enabling progamatic access via AWS's IAM console.
 
 ## Status and Bug Reports
-As of 6/23/2020, this tool is in it's earliest form of development. There is no guarantee it will work, and there is expected to be bugs (harmless bugs, likely dict errors), [please report them to me via Twitter](https://twitter.com/gekk05)
+As of 6/23/2020, this tool is in it's earliest form of development. There is no guarantee it will work, and there is expected to be bugs (harmless bugs, likely dict errors).
 
 ## Future Plans
 Currently AWS Enum is configured to only return a findings report in JSON form then passed to my company's template -- generating an HTML report automatically. 

@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://example.com/">
-    <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
+    <img src="https://media1.tenor.com/images/4543cf24f71dadf0e4791cc273f4c3b1/tenor.gif" alt="Logo" width=72 height=72>
   </a>
 
   <h3 align="center"></h3>

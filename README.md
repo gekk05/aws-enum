@@ -23,7 +23,7 @@ AWS Enum is an AWS security auditing tool utilizing AWS's Python3 library, Boto3
 
 ## Table of contents
 
-- [about](#about)
+- [About](#about)
 - [Quick start](#quick-start)
 - [Status](#status)
 - [What's included](#whats-included)

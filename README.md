@@ -25,7 +25,6 @@
 - [About](#about)
 - [Quick start](#quick-start)
 - [Status](#status)
-- [Contributing](#contributing)
 - [Creators](#creators)
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
@@ -71,7 +70,7 @@ The future for AWS Enum will look like:
 
 ## Thanks
 
-[]
+**v**
 
 ## Copyright and license
 

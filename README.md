@@ -24,7 +24,7 @@
 
 - [About](#about)
 - [Quick start](#quick-start)
-- [Status and Bug Reports](#Status and Bug Reports)
+- [Status and Bug Reports](#Status-and-Bug-Reports)
 - [Creators](#creators)
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)

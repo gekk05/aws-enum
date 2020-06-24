@@ -57,6 +57,7 @@ The future for AWS Enum will look like:
 
 * More services and test cases
 * CLI args to test multiple AWS account and regions
+* CLI arg to return findings of a certain kind and service, i.e, only instances of disabled server-side encryption, or all findings from EC2.
 * Visualization of AWS findings
 * Automated AWS privilege escalation and horizontal pivoting
 * Asset exfiltration (contingent on IAM permissions, exfiltrate sensitive data from common services like DynamoDB, S3, etc.) 

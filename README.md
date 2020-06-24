@@ -32,7 +32,7 @@
 
 
 ## About
-[]
+It's a bunch of for-loops and JSON.
 
 ## Quick start
 

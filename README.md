@@ -26,7 +26,6 @@ AWS Enum is an AWS security auditing tool utilizing AWS's Python3 library, Boto3
 - [About](#about)
 - [Quick start](#quick-start)
 - [Status](#status)
-- [What's included](#whats-included)
 - [Contributing](#contributing)
 - [Creators](#creators)
 - [Thanks](#thanks)
@@ -34,7 +33,7 @@ AWS Enum is an AWS security auditing tool utilizing AWS's Python3 library, Boto3
 
 
 ## About
-AWS Enum is an AWS account configuration auditing tool designed to scour all AWS services for security flaws and violations of best practices. AWS Enum is powered by AWS's Python3 SDK, Boto3. Currently, AWS Enum can audit 15 AWS services and runs over 40 test cases. To use AWS Enum you must have Boto3 installed and IAM progamatic permissions to generate credentials for the AWS CLI.
+AWS Enum is an AWS account configuration auditing tool designed to scour all AWS services for security flaws and violations of best practices. AWS Enum is powered by AWS's Python3 SDK, Boto3. Currently, AWS Enum can audit 15 AWS services and runs over 40 test cases. To use AWS Enum you must have Boto3 installed and IAM progamatic permissions to generate credentials for the AWS CLI. Currently AWS Enum will return a JSON blob with all of the findings for later processing. 
 
 ## Quick start
 
@@ -67,27 +66,27 @@ folder1/
         └── file4
 ```
 
-## Bugs and feature requests
+## Future Plans
+Currently AWS Enum is configured to only return a findings report in JSON form then passed to my company's template -- generating an HTML report automatically. 
 
-Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
+The future for AWS Enum will look like:
 
-## Contributing
+* More services and test cases
+* CLI args to test multiple AWS account and regions
+* Visualization of AWS findings
+* Automated AWS privilege escalation and horizontal pivoting
+* Asset exfiltration (contingent on IAM permissions, exfiltrate sensitive data from common services like DynamoDB, S3, etc.) 
+* AWS account map visualization, likely mindmaps similar to how [Bloodhound](https://github.com/BloodHoundAD/BloodHound) does it.
 
-Please read through our [contributing guidelines](https://reponame/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
-
-Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Main author](https://github.com/usernamemainauthor).
-
-Editor preferences are available in the [editor config](https://reponame/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
 
 ## Creators
 
-**Creator 1**
+**P**
 
-- <https://github.com/usernamecreator1>
 
 ## Thanks
 
-Some Text
+[]
 
 ## Copyright and license
 

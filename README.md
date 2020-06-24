@@ -11,7 +11,7 @@
   <h3 align="center"></h3>
 
   <p align="center">
-    AWS Enum is an AWS account configuration auditing tool designed to scour all AWS services for security flaws and violations of best practices. AWS Enum is powered by AWS's Python3 SDK, Boto3. Currently, AWS Enum can audit 15 AWS services and runs over 40 test cases. To use AWS Enum you must have Boto3 installed and IAM progamatic permissions to generate credentials for the AWS CLI.
+    AWS Enum is an AWS account configuration auditing tool designed to scour all AWS services for security flaws and violations of best practices. AWS Enum is powered by AWS's Python3 SDK, Boto3. Currently, AWS Enum can audit 15 AWS services and runs over 40 test cases. To use AWS Enum you must have Boto3 installed and IAM programmatic permissions to generate credentials for the AWS CLI.
     <br>
     <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
     ·

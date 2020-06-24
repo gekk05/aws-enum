@@ -24,7 +24,7 @@
 
 - [About](#about)
 - [Quick start](#quick-start)
-- [Status](#status)
+- [Status & Bug Reports](#Status & Bug Reports)
 - [Creators](#creators)
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
@@ -46,7 +46,7 @@ It's a bunch of for-loops and JSON.
 Both AWS keys are obtained by enabling progamatic access via AWS's IAM console.
 
 ## Status
-As of 6/23/2020, this tool is in it's earliest form of development.
+As of 6/23/2020, this tool is in it's earliest form of development. There is no guarantee it will work, and there is expected to be bugs (harmless bugs, likely dict errors), [please report them to me via Twitter](https://twitter.com/gekk05)
 
 ## Future Plans
 Currently AWS Enum is configured to only return a findings report in JSON form then passed to my company's template -- generating an HTML report automatically. 
